@@ -1,13 +1,13 @@
 Package.describe({
   name: 'jaredhliu:ffmpeg',
   summary: 'ffmpeg packaged for meteor. Uses fluent-ffmpeg',
-  version: '1.0.3',
+  version: '1.0.5',
   git: 'https://github.com/jaredliu2018/meteor-ffmpeg.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.addFiles('ffmpeg.js');
+  api.addFiles('ffmpeg.js', 'server');
   api.export('ffmpeg');
 });
 

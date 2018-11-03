@@ -38,8 +38,8 @@ if (!nodeff){
 		ffmpeg.isAvailable = false;
 	}else{
 		if(nodeff){
-			ffmpeg = nodeffmpeg
-
+			ffmpeg = nodeffmpeg;
+            console.log("--- FFmpeg assigned ---");
 		}
 
 		ffmpeg.isAvailable = true;
